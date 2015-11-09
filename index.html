@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// Initialize collapse button
+  			$(".sign-in-button").sideNav({
+  				menuWidth: 300,
+  				edge: 'right'
+  			});
+		});
+	</script>
+	<div class="row side-nav full" id="slide-out-login">
+	    <form id="tu-login-form" class="col s12">
+       		<div class="input-field col s12">
+       			<span id="email">Email</span>
+          		<input type="email" focused>		
+        	</div>
+	        <div class="input-field col s12">
+	        	<span id="password">Password</span>
+	        	<input type="password" >
+	        	<a href="#" class="tu-form-login-forget grey-text">forget password</a>
+	        </div>
+	        <div class="input-filed col s12">
+	        	<input type="checkbox" id="remember" />
+      			<label for="remember">remember me</label>
+      			</br>
+	        </div>
+	      	<div class="input-field col s12">
+	      		<input class="btn tu-btn" type="submit" value="Login">
+	        </div>
+	    </form>
+	</div>
+	<nav>
+		<div class="nav-wrapper tu-nav-wrapper">
+			<div class="container">
+				<a class="brand-logo">TU NEWS</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a class="sign-in-button" data-activates="slide-out-login">Log In</a></li>
+					<li><a class="sign-in-button" data-activates="slide-out-login">Sign In</a></li>
+					<li><i class="material-icons mediumn">search</i></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- start TU NEW's container -->
+	<div class="tu-news-container container">
+		<!-- top news div -->
+		<div class="tu-top-news-container news-container-style-1 row">
+			<div class="tu-post pri-post card  card  col m8">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+						Hello World
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="tu-top-news-container news-container-style-2 row">
+			<div class="tu-post sec-post card  col m8">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+		</div>
+		<div class="tu-top-news-container news-container-style-3 row">
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+			<div class="tu-post sec-post card  col m4">
+				<div class="card-content">
+					<span class="card-title">Post Title</span>
+					<p>I am a very simple card. I am good at containing small bits of information.
+						I am convenient because I require little markup to use effectively.
+					</p>
+				</div>
+				<div class="card-action">
+					<a href="#">This is a link</a>
+					<a href="#">This is a link</a>
+				</div>
+			</div>
+		</div>
+		<!-- end top news div -->
+	</div>
+	<!-- end TU NEW's container -->
+	<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    	<a class="btn-floating btn-large tu-btn">
+      		<i class="large material-icons">perm_contact_calendar</i>
+    	</a>
+  	</div>
+</body>
+</html>
